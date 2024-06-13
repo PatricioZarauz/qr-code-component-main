@@ -1,0 +1,35 @@
+* {
+  all: unset;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 15px; }
+
+body {
+  background-color: #d6e2f0; }
+
+h3 {
+  font-weight: 700;
+  color: #1f3251;
+  font-size: 1.75rem; }
+
+p {
+  font-weight: 400;
+  color: #7b879d; }
+
+div.card {
+  background-color: white;
+  border-radius: 2rem;
+  display: grid;
+  grid-row: 1 / span 2;
+  width: 300px;
+  margin-inline: auto;
+  padding: 1rem; }
+  div.card img {
+    width: 100%;
+    border-radius: 1rem;
+    aspect-ratio: 1/1; }
+  div.card .card-content {
+    text-align: center; }
+
+/*# sourceMappingURL=index.css.map */
