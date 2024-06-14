@@ -11,12 +11,8 @@ $dark_blue:hsl(218, 44%, 22%);
 }
 
 body{
+  margin: 0;
   background-color: $light_gray;
-  height: calc(100vh - 2rem);
-  margin: 1rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 h3 {
@@ -30,9 +26,17 @@ p {
   color: $grayish_blue;
 }
 
+main{
+  height: calc(100vh - 2rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+
 div.card{
   background-color: white;
-  border-radius: 2rem;
+  border-radius: 2.25rem;
   display: flex;
   flex-direction: column;
   width: 300px;
@@ -42,7 +46,7 @@ div.card{
 
   img{
     width: 100%;
-    border-radius: 1rem;
+    border-radius: 1.25rem;
     aspect-ratio: 1/1;
   }
 
